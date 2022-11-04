@@ -1,0 +1,24 @@
+{
+	"name": "influxed-alerts",
+	"version": "1.0.0",
+	"description": "Cross platform CLI Alerts with colors & colored symbols for success, info, warning, error. Works on macOS, Linux, and Windows",
+	"license": "MIT",
+	"repository": "influxion/influxed-alerts",
+	"author": {
+		"name": "Jordon Nichols",
+		"email": "jordon@influxed.io",
+		"url": "https://influxed.io/"
+	},
+	"keywords": [
+		"cli",
+		"alerts",
+		"influxion",
+		"flux",
+		"influxed",
+		"cli alerts"
+	],
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	}
+}

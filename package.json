@@ -2,6 +2,7 @@
 	"name": "influxed-alerts",
 	"version": "1.0.0",
 	"description": "Cross platform CLI Alerts with colors & colored symbols for success, info, warning, error. Works on macOS, Linux, and Windows",
+	"type": "module",
 	"license": "MIT",
 	"repository": "influxion/influxed-alerts",
 	"author": {
@@ -18,7 +19,14 @@
 		"cli alerts"
 	],
 	"main": "index.js",
+	"files": [
+		"index.js"
+	],
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "node test.js"
+	},
+	"dependencies": {
+		"chalk": "^5.1.2",
+		"log-symbols": "^5.1.0"
 	}
 }
